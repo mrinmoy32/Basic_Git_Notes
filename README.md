@@ -33,3 +33,20 @@ Mrinmoy Pal 10 June 2023 at 03:32
 ***IMPORTANT- To revert committed changes for a single file: git checkout [commit ID]~1 -- path/to/file
 
 e.g. git checkout 85d42de~1 -- src\shared\components\UIElement\Card.js
+
+---
+
+## comparison between "Squash and Merge" and "Rebase and Merge" in Git:
+
+| Aspect               | Squash and Merge                                   | Rebase and Merge                                    |
+|----------------------|----------------------------------------------------|-----------------------------------------------------|
+| Workflow             | Commits are squashed into a single commit.         | Commits are rebased onto the target branch.        |
+| Commit History       | Creates a linear history with a single commit.     | Creates a linear history with rebased commits.     |
+| Commit Messages      | Individual commit messages are retained.          | Individual commit messages are retained.          |
+| Changes Preservation | Original commit history is lost.                  | Original commit history is preserved.             |
+| Committer Information| Commits retain their original authors and timestamps.| Commits retain their original authors and timestamps.|
+| Conflict Resolution | Conflict resolution occurs during merge.          | Conflict resolution can occur during rebase.      |
+| Remote Repository    | May require force-pushing to remote repository.    | May require force-pushing to remote repository.   |
+| Collaboration        | May lead to cleaner commit history for collaborators.| May lead to more accurate history with rebased commits.|
+| Use Cases            | Suitable for feature branches or pull requests with many small commits.| Useful for feature branches where commits need to be rebased and updated.|
+| Complexity           | Simpler process, especially for newcomers.        | Involves more complex interactions and conflicts handling.|
