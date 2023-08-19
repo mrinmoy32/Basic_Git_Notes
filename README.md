@@ -36,7 +36,7 @@ e.g. git checkout 85d42de~1 -- src\shared\components\UIElement\Card.js
 
 ---
 
-## comparison between "Squash and Merge" and "Rebase and Merge" in Git:
+## Comparison between "Squash and Merge" and "Rebase and Merge" in Git:
 
 | Aspect               | Squash and Merge                                   | Rebase and Merge                                    |
 |----------------------|----------------------------------------------------|-----------------------------------------------------|
