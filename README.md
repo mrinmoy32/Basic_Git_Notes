@@ -11,6 +11,7 @@ git remote add origin https://github.com/mrinmoy32/mongoDB_command_notes.git
 git remote -v (to check remote)
 git push origin master (or git push --set-upstream origin master)
 
+---
 
 --> Mrinmoy Pal 10 June 2023 at 03:10
 
