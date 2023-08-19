@@ -1,4 +1,4 @@
-# Basic-Git-Notes
+## Basic-Git-Notes
 
 --> Mrinmoy Pal 22 March 2023 at 11:29
 
